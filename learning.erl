@@ -72,7 +72,7 @@ tl(1, 2, 3, 4]). % gets the tail
 [Head|Tail] = [1, 2, 3, 4]. % can access parts like this
 NewList = [100|Tail]. % can use pipe to modify lists, too
 
-[1 |[2 * N || N <- [1, 2, 3, 4]] 2]. % Erlang is weird with lists declared like this
+[1 | 2]. % Erlang is weird with lists declared like this
 [1 | [2]]. % this is fine, though
 
 % list comprehensions
