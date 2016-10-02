@@ -30,8 +30,8 @@ true and false.
 false or true.
 true xor false.
 not false.
-no (true and true).
-[X || X <- [1, 2, 3, 4, 5], X rem 2 =:= 0].
+not (true and true).
+
 % comparison
 
 5 =:= 5.   % true
